@@ -1,6 +1,6 @@
 const { Router } = require('express');
 const {Cliente} = require('../db');
-const Comentario = require('../models/Comentario');
+const {Comentario} = require('../db');
 const router = Router();
 
 router.get('/comentario', async (req, res) => {

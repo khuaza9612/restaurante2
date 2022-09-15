@@ -7,7 +7,7 @@ const { conn } = require('./db');
 
 config();
 
-const port = process.env.PORT || 3000; // <== You can change the port
+const port = process.env.PORT || 4000; // <== You can change the port
 
 app.use(cors());
 app.use(express.json());

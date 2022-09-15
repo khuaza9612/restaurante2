@@ -5,7 +5,7 @@ const bcrypt = require('bcrypt');
 const {Reserva} = require('../db');
 const {Cliente }= require('../db');
 const {Restaurante} = require('../db');
-const Servicio = require('../db');
+const {Servicio} = require('../db');
 const router = Router();
 
 const get = async (req, res) => {
